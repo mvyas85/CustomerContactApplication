@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Send Email</title>
+        <link rel="stylesheet" type ="text/css" href="style.css"/>
+    </head>
+    <body>
+        <p><strong>Private : </strong>For Administrator's use ONLY</br>
+            Write and send an email to contact list members.</p>
+        <form method="post" action="sendemail.php">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" size="30"/></br>
+            <label for="messege">Body of email: </label>
+            <textarea id="messege" name="messege" rows="8" cols="40"></textarea><br />
+            <input type="submit" name="Submit" value="Submit"/>
+        </form>
+    </body>
+</html>
